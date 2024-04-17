@@ -163,7 +163,7 @@ function Countdown() {
 						Add Timer 
 					</button> 
 				</div> 
-				<div className="timers-div m-auto d-flex"> 
+				<div className="timers-div m-auto d-flex" style= {{flexWrap: 'wrap'}}> 
 					{timers.map((timer) => { 
 						const timeRemaining = formatTimeRemaining( 
 							timer.timeRemaining 
